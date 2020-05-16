@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { InputButtonUnitComponent } from './input-button-unit/input-button-unit.component';
 
 @Component({
   selector: 'app-root',
@@ -15,5 +16,6 @@ export class AppComponent {
     {title: 'develop app'},
     {title: 'deploy app'},
   ];
+
 }
 
